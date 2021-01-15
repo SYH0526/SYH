@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RankActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <include layout="@layout/backbar"></include>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/tv_border_gray">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:text="名次"
+            android:textSize="24dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:text="学院"
+            android:textSize="24dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:text="姓名"
+            android:textSize="24dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:text="进球数"
+            android:textSize="24dp">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lv_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

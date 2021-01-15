@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ModifyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <include layout="@layout/backbar"></include>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+
+        <ListView
+            android:id="@+id/list_modify"
+            android:layout_width="match_parent"
+            android:layout_height="460dp">
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/bt_add"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="添加资讯"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bt_border">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
