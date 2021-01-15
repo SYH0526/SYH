@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="137dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bt_border">
+
+            <TextView
+                android:id="@+id/tv_list_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:text="进 球 榜"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="33dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="137dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bt_border">
+
+            <TextView
+                android:id="@+id/tv_list_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:text="射 门 榜"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="33dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="137dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bt_border">
+
+            <TextView
+                android:id="@+id/tv_list_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:text="助 攻 榜"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="33dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+</LinearLayout>

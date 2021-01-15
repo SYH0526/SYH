@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddActivity"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <include layout="@layout/backbar"></include>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="请输入标题"
+        android:textColor="#D9001B"
+        android:textSize="24sp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_add_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:background="@drawable/tv_border_gray">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="请输入内容"
+        android:textColor="#D9001B"
+        android:textSize="24sp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_add_content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:gravity="top"
+        android:background="@drawable/tv_border_gray">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/bt_add_picture"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/picture">
+
+        </Button>
+
+        <Spinner
+            android:id="@+id/sp_kind"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp">
+
+        </Spinner>
+
+        <Button
+            android:id="@+id/bt_add_finish"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="完成添加"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bt_border"
+            android:layout_marginLeft="40dp">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
